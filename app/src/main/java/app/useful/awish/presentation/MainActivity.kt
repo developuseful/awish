@@ -45,4 +45,6 @@ class MainActivity : AppCompatActivity() {
             dataTextView.text = "${userName.firstName} ${userName.lastName}"
         }
     }
+
+    // mvvm
 }
