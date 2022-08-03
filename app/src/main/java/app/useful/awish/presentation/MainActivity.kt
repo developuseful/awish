@@ -46,5 +46,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // mvvm
+
 }
