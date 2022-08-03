@@ -10,7 +10,7 @@ class SaveUserNameUseCase(private val userRepository: UserRepository){
         val oldUserName = userRepository.getName()
 
         if (oldUserName.firstName == param.name){
-            return true
+            return false
         }
 
         val result : Boolean = userRepository.saveName(saveParam = param)
