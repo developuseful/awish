@@ -1,21 +1,13 @@
 package app.useful.awish.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import androidx.lifecycle.ViewModel
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import app.useful.awish.R
-import app.useful.awish.data.repository.UserRepositoryImpl
-import app.useful.awish.data.storage.UserStorage
-import app.useful.awish.data.storage.sharedprefs.SharedPrefUserStorage
-import app.useful.awish.domain.models.SaveUserNameParam
-import app.useful.awish.domain.models.UserName
-import app.useful.awish.domain.usecase.GetUserNameUseCase
-import app.useful.awish.domain.usecase.SaveUserNameUseCase
 
 class MainActivity : AppCompatActivity() {
 
